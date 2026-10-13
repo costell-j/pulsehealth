@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pulsehealth/static/css/main.e48c83eb.css",
+    "main.js": "/pulsehealth/static/js/main.282e171c.js",
+    "index.html": "/pulsehealth/index.html",
+    "main.e48c83eb.css.map": "/pulsehealth/static/css/main.e48c83eb.css.map",
+    "main.282e171c.js.map": "/pulsehealth/static/js/main.282e171c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e48c83eb.css",
+    "static/js/main.282e171c.js"
+  ]
+}
