@@ -1,8 +1,9 @@
 import "./Dropdown.css"
 
-const Dropdown = (e) => {
+const Dropdown = ({isOpen}) => {
     return(
-        <nav id="drop-down" className="hidden">
+        // eslint-disable-next-line no-undef
+        <nav id="drop-down" className={isOpen ? "" : "hidden"}>
             <a href="medication.html">
                 <div className="drop-div">
                     Medications

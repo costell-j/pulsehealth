@@ -71,6 +71,11 @@
     cursor:pointer;
 }
 
+button {
+    border:none;
+    background-color: transparent;
+}
+
 @media (min-width: 1000px) {
     /* Header */
     #main-header {
