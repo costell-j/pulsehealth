@@ -1,0 +1,84 @@
+#main-header {
+    height: 64px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borders);
+}
+
+#main-header a {
+    color: var(--darkblue);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pulse-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.icon {
+    height:40px;
+}
+
+#header-nav {
+    align-items: center;
+    gap: 25px;
+}
+
+#header-nav a {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--maintext);
+    transition-duration: 0.5s;
+}
+
+#header-nav a:hover,  #header-nav a.active:hover{
+    color: var(--tealbtns);
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+#nav-search {
+    width: 190px;
+}
+
+#nav-search input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--borders);
+    border-radius: 8px;
+    background: var(--whiteish);
+}
+
+#header-nav a.active {
+    text-decoration: underline;
+    color:var(--darkblue);
+}
+
+#hamburger:hover {
+    cursor:pointer;
+}
+
+@media (min-width: 1000px) {
+    /* Header */
+    #main-header {
+        height: 76px;
+        padding: 0 5%;
+    }
+
+    #drop-down {
+        display: none;
+    }
+}

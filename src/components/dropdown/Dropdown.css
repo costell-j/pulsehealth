@@ -1,0 +1,25 @@
+.drop-div {
+    display:flex;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px var(--borders);
+}
+
+#drop-down a {
+    color: var(--maintext);
+}
+
+#drop-down .active {
+    background-color: var(--tealhover);
+    color: var(--white)
+}
+
+.drop-div:hover {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.drop-div:hover {
+    background-color: var(--tealbtns);
+}
