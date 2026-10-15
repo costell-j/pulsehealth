@@ -1,0 +1,36 @@
+#foot-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+#foot-nav div {
+    flex: 1;
+    min-width: 120px;
+}
+
+#foot-nav h5 {
+    margin: 0 0 16px;
+    font-size: 13px;
+    color: white;
+}
+
+#foot-nav ul {
+    margin: 0;
+    padding: 0;
+    line-height:30px;
+    list-style: none;
+}
+
+#foot-nav li {
+    font-size: 13px;
+}
+
+#foot-nav a {
+    color: var(--footertext);
+}
+
+#foot-nav a:hover {
+    color: var(--white);
+}

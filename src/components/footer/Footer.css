@@ -1,0 +1,35 @@
+footer {
+    margin-top: 64px;
+    padding: 35px 20px 24px;
+    background: var(--darkblue);
+    color: var(--footertext);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#foot-header {
+    margin-bottom: 36px;
+}
+
+#foot-header .logo h1 {
+    color: var(--white);
+}
+
+#foot-header p {
+    max-width: 300px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+footer hr {
+    margin-bottom: 24px;
+    border: none;
+    border-top: 1px solid var(--kindablue);
+}
+
+footer p {
+    font-size: 10px;
+    line-height: 1.8;
+}
