@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pulsehealth/static/css/main.87cdbccb.css",
-    "main.js": "/pulsehealth/static/js/main.e2491385.js",
+    "main.css": "/pulsehealth/static/css/main.7a250960.css",
+    "main.js": "/pulsehealth/static/js/main.abaa85ec.js",
     "static/media/icon-menu.png": "/pulsehealth/static/media/icon-menu.de9ba006d9ed5c788487.png",
     "index.html": "/pulsehealth/index.html",
-    "main.87cdbccb.css.map": "/pulsehealth/static/css/main.87cdbccb.css.map",
-    "main.e2491385.js.map": "/pulsehealth/static/js/main.e2491385.js.map"
+    "main.7a250960.css.map": "/pulsehealth/static/css/main.7a250960.css.map",
+    "main.abaa85ec.js.map": "/pulsehealth/static/js/main.abaa85ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.87cdbccb.css",
-    "static/js/main.e2491385.js"
+    "static/css/main.7a250960.css",
+    "static/js/main.abaa85ec.js"
   ]
 }
