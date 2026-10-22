@@ -1,39 +1,40 @@
-import "./Dropdown.css"
+import "./Dropdown.css";
+import {NavLink} from "react-router-dom";
 
 const Dropdown = ({isOpen}) => {
     return(
         // eslint-disable-next-line no-undef
         <nav id="drop-down" className={isOpen ? "" : "hidden"}>
-            <a href="medication.html">
+            <NavLink to="/medications">
                 <div className="drop-div">
                     Medications
                 </div>
-            </a>
-            <a href="conditions.html">
+            </NavLink>
+            <NavLink to="/conditions">
                 <div className="drop-div">
                     Health Conditions
                 </div>
-            </a>
-            <a href="doctors.html">
+            </NavLink>
+            <NavLink to="/doctors">
                 <div className="drop-div">
                     Doctors & Providers
                 </div>
-            </a>
-            <a href="appointments.html">
+            </NavLink>
+            <NavLink to="/appointments">
                 <div className="drop-div">
                     Appointments & Care
                 </div>
-            </a>
-            <a href="resources.html">
+            </NavLink>
+            <NavLink to="/resources">
                 <div className="drop-div">
                     Health Resources
                 </div>
-            </a>
-            <a href="guides.html">
+            </NavLink>
+            <NavLink to="/guides">
                 <div className="drop-div">
                     Guides
                 </div>
-            </a>
+            </NavLink>
         </nav>
     );
 };

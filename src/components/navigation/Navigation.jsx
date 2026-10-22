@@ -1,14 +1,17 @@
-import "./Navigation.css"
+import "./Navigation.css";
+import {NavLink} from "react-router-dom";
 
 const Navigation = (e) => {
     return(
         <nav id="header-nav" className="hide-small">
-            <a href="#">Medications</a>
-            <a href="#">Health Conditions</a>
-            <a href="#">Doctors & Providers</a>
-            <a href="#">Appointments & Care</a>
-            <a href="#">Health Resources</a>
-            <a href="#">Guides</a>
+            <NavLink to="/medications">Medications</NavLink>
+            <NavLink to="/conditions">Health Conditions</NavLink>
+            <NavLink to="/doctors">Doctors & Providers</NavLink>
+            <NavLink to="/appointments">Appointments & Care</NavLink>
+            <NavLink to="/resources">Health Resources</NavLink>
+            <NavLink to="/guides">Guides</NavLink>
+
+            
         </nav>
     );
 };

@@ -9,7 +9,7 @@ const Search = (e) => {
                         placeholder="Search topics" required />
                     </form>
                 </search>
-            </div>
+        </div>
     );
 };
 

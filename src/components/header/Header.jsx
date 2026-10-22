@@ -5,16 +5,20 @@ import menu from "./images/icon-menu.png";
 import Navigation from "../navigation/Navigation";
 import Dropdown from "../dropdown/Dropdown";
 import Search from "../search/Search";
+import {NavLink} from "react-router-dom";
+
 
 const Header = (e) => {
     const[menuOpen, setMenuOpen] = useState(false);
     return(
-        <div>
+        <>
             <header id="main-header">
-                <div className="logo">
-                    <img src={logo}  className="pulse-logo" alt="Logo" />
-                    <h1>Pulse</h1>
-                </div>
+                <NavLink to="/">
+                    <div className="logo">
+                    <img className="pulses-logo" src={logo} alt="pulse logo" />
+                        <h1>Pulse</h1>
+                    </div>
+                </NavLink>
                 <Navigation />
                 <Search />
                 <button
@@ -28,7 +32,7 @@ const Header = (e) => {
                 </button>
             </header>
             <Dropdown isOpen={menuOpen} />
-        </div>
+        </>
         
     );
 };

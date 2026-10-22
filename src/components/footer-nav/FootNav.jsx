@@ -1,4 +1,5 @@
 import "./FootNav.css"
+import {NavLink} from "react-router-dom";
 
 const FootNav = (e) => {
     return(
@@ -6,25 +7,25 @@ const FootNav = (e) => {
                 <div id="explore">
                     <h5>Explore</h5>
                     <ul>
-                        <a href="medication.html"><li>Medications</li></a>
-                        <a href="conditions.html"><li>Health Conditions</li></a>
-                        <a href="doctors.html"><li>Doctors & Providers</li></a>
+                        <NavLink to="/medications"><li>Medications</li></NavLink>
+                        <NavLink to="/conditions"><li>Health Conditions</li></NavLink>
+                        <NavLink to="/doctors"><li>Doctors & Providers</li></NavLink>
                     </ul>
                 </div>
                 <div id="learn">
                     <h5>Learn</h5>
                     <ul>
-                        <a href="resources.html"><li>Health Resources</li></a>
-                        <a href="guides.html"><li>Health Guides</li></a>
-                        <a href="appointments.html"><li>Appointments & Care</li></a>
+                        <NavLink to="/resources"><li>Health Resources</li></NavLink>
+                        <NavLink to="/guides"><li>Health Guides</li></NavLink>
+                        <NavLink to="/appointments"><li>Appointments & Care</li></NavLink>
                     </ul>
                 </div>
                 <div id="about">
                     <h5>About</h5>
                     <ul>
-                        <a href="#"><li>About Pulse</li></a>
-                        <a href="#" id="contact-open"><li>Contact</li></a>
-                        <a href="#"><li>Privacy</li></a>
+                        <NavLink to="/"><li>About Pulse</li></NavLink>
+                        <NavLink to="/"><li>Contact</li></NavLink>
+                        <NavLink to="/"><li>Privacy</li></NavLink>
                     </ul>
                 </div>
         </nav>

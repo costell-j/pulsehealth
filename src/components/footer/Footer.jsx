@@ -1,15 +1,18 @@
 import "./Footer.css";
 import logo from "../header/images/pulse-logo.png";
-import FootNav from "../footer-nav/FootNav"
+import FootNav from "../footer-nav/FootNav";
+import {NavLink} from "react-router-dom";
 
 const Footer = (e) =>{
     return(
         <footer>
             <header id="foot-header">
-                <div className="logo" href="index.html">
-                    <img className="pulse-logo" src={logo} alt="pulse logo" />
-                    <h1>Pulse</h1>
-                </div>
+                <NavLink to="/">
+                    <div className="logo">
+                    <img className="pulses-logo" src={logo} alt="pulse logo" />
+                        <h1>Pulse</h1>
+                    </div>
+                </NavLink>
                 <p>Clear health information for everyday decisions</p>
             </header>
             <FootNav />
