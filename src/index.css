@@ -137,12 +137,6 @@ main h3 {
   padding: 5px;
 }
 
-a .btn {
-  display: contents;
-  text-decoration: none;
-  color: inherit;
-}
-
 @media(min-width:1000px) {
     /* Columns */
     .column {

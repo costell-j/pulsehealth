@@ -1,7 +1,7 @@
 [
     {
         "_id": 1,
-        "img_src": "./images/icon-medications.png",
+        "img_src": "medications",
         "title": "Medications",
         "color": "lightteal",
         "description": "Uses, safety, & more",
@@ -10,7 +10,7 @@
     },
     {
         "_id": 2,
-        "img_src": "./images/icon-conditions.png",
+        "img_src": "conditions",
         "title": "Conditons",
         "color": "lightgold",
         "description": "Symptoms & care",
@@ -19,7 +19,7 @@
     },
     {
         "_id": 3,
-        "img_src": "./images/icon-providers.png",
+        "img_src": "providers",
         "title": "Find a provider",
         "color": "lightblue",
         "description": "Specialities explained",
@@ -28,7 +28,7 @@
     },
     {
         "_id": 4,
-        "img_src": "./images/icon-guides.png",
+        "img_src": "guides",
         "title": "Health guides",
         "color": "lightlavender",
         "description": "Practical next steps",

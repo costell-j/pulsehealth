@@ -1,4 +1,3 @@
-import "./CallToAction.css"
 import { NavLink } from "react-router-dom";
 
 const CallToAction = ({ miniHead, title, description, button, link }) => {

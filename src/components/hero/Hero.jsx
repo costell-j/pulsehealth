@@ -2,6 +2,16 @@ import HeroSearch from "../hero-search/HeroSearch";
 import TopicCard from "../topic-card/TopicCard.jsx";
 import topics from "../topic-card/TopicCard.json";
 import "./Hero.css";
+import medications from "../images/icon-medications.png";
+import conditions from "../images/icon-conditions.png";
+import providers from "../images/icon-providers.png";
+import guides from "../images/icon-guides.png"
+const images = {
+    medications,
+    conditions,
+    providers,
+    guides
+};
 
 const Hero =(e) => {
     return(
@@ -22,7 +32,7 @@ const Hero =(e) => {
                             {topics.map((topic) => (
                                 <TopicCard
                                     key={topic._id}
-                                    img_src={topic.img_src}
+                                    img_src={images[topic.img_src]}
                                     title={topic.title}
                                     color={topic.color}
                                     description={topic.description}

@@ -3,7 +3,7 @@ import "./GuideCard.css"
 
 const GuideCard = ({ title, description, link }) => {
     return(
-        <div className="guide">
+        <div className="guide guide-card">
             <h4>{title}</h4>
             <p>{description}</p>
             <NavLink to={link}>Read guide</NavLink>

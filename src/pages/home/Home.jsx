@@ -61,7 +61,7 @@ const Home = (e) => {
                     ))}
                 </div>
                 <div className="content feautred-text one">
-                <h3 className="mini-head">Health information that meets you where you are</h3>
+                    <h3 className="mini-head">Health information that meets you where you are</h3>
                     <h1>Less jargon.</h1>
                     <h1>More confidence</h1>
                     <h3 className="featured-description">From learning what a new medication does to preparing questions for a provider, Pulse helps you arrive at your next step feeling informed</h3>
