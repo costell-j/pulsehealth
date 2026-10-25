@@ -1,0 +1,167 @@
+#first-sec {
+    position: relative;
+    padding: 55px 20px 65px;
+    background: var(--heromint);
+}
+
+.hero-text h1 {
+    max-width: 550px;
+}
+
+.hero-text p {
+    max-width: 460px;
+    margin: 20px 0 28px;
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--maintext);
+}
+
+
+#topics div {
+    padding: 22px 16px;
+}
+
+#provider-map {
+    margin-top: 0;
+}
+
+#explore-health {
+    padding: 20px;
+    border: 1px solid var(--borders);
+    border-radius: 18px;
+    background: var(--white);
+    box-shadow: 0 15px 35px var(--darkerblue);
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 45px auto 0;
+}
+
+#exp-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+#exp-head h3 {
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--darkblue);
+}
+
+#exp-head div {
+    padding: 6px 10px;
+    border-radius: 20px;
+    background: var(--light-teal);
+}
+
+#exp-head h4 {
+    margin: 0;
+    font-size: 9px;
+    color: var(--tealbtns);
+}
+
+#topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#topics div {
+    width: 48%;
+    padding: 18px 12px;
+    border-radius: 12px;
+}
+
+#topics div:hover {
+    cursor: pointer;
+}
+
+#topics a {
+    display:contents;
+    text-decoration: none;
+    color: inherit;
+}
+
+#topics img {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 12px;
+}
+
+#topics h2 {
+    margin: 0 0 5px;
+    font-size: 12px;
+}
+
+#topics p {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.5;
+    color: var(--maintext);
+}
+
+#start-basic {
+    margin-top: 16px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: var(--whiteish);
+}
+
+#start-basic h3 {
+    margin: 0 0 4px;
+    font-size: 11px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--darkblue);
+}
+
+#start-basic p {
+    margin: 0;
+    font-size: 10px;
+    color: var(--maintext);
+}
+
+@media (min-width: 1000px) {
+    #first-sec {
+        align-items: center;
+        gap: 55px;
+        min-height: 520px;
+        padding: 75px 7%;
+    }
+
+    .search-form {
+        flex-wrap: nowrap;
+    }
+
+    .search-btn {
+        width: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    #explore-health {
+        max-width: 480px;
+        margin: 0 0 0 auto;
+        padding: 24px;
+    }
+
+    #topics div {
+        padding: 22px 16px;
+    }
+
+    #provider-map {
+        margin-top: 0;
+    }
+}

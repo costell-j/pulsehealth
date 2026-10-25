@@ -1,0 +1,20 @@
+[
+    {
+        "_id": 1,
+        "title": "Preventative care",
+        "description": "Understand blood pressure: The numbers explained",
+        "link": "/guides"
+    },
+    {
+        "_id": 2,
+        "title": "Medication safety",
+        "description": "Find questions to ask before starting a new prescription",
+        "link": "/guides"
+    },
+    {
+        "_id": 3,
+        "title": "Prepare for care",
+        "description": "What to bring to a doctor's appointment",
+        "link": "/guides"
+    }
+]

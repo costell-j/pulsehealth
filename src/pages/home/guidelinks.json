@@ -1,0 +1,17 @@
+[
+    {
+        "_id": 1,
+        "link": "/guides",
+        "description": "Medication safety basics"
+    },
+    {
+        "_id": 2,
+        "link": "/guides",
+        "description": "When should you see a doctor?"
+    },
+    {
+        "_id": 3,
+        "link": "/guides",
+        "description": "Preparing for a health appointment"
+    }
+]

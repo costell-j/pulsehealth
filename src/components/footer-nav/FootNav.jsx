@@ -23,9 +23,9 @@ const FootNav = (e) => {
                 <div id="about">
                     <h5>About</h5>
                     <ul>
-                        <NavLink to="/"><li>About Pulse</li></NavLink>
-                        <NavLink to="/"><li>Contact</li></NavLink>
-                        <NavLink to="/"><li>Privacy</li></NavLink>
+                        <NavLink to="#"><li>About Pulse</li></NavLink>
+                        <NavLink to="#"><li>Contact</li></NavLink>
+                        <NavLink to="#"><li>Privacy</li></NavLink>
                     </ul>
                 </div>
         </nav>

@@ -1,0 +1,38 @@
+[
+    {
+        "_id": 1,
+        "img_src": "./images/icon-medications.png",
+        "title": "Medications",
+        "color": "lightteal",
+        "description": "Uses, safety, & more",
+        "link": "/medications",
+        "alt": "medications icon"
+    },
+    {
+        "_id": 2,
+        "img_src": "./images/icon-conditions.png",
+        "title": "Conditons",
+        "color": "lightgold",
+        "description": "Symptoms & care",
+        "link": "/conditions",
+        "alt": "conditions icon"
+    },
+    {
+        "_id": 3,
+        "img_src": "./images/icon-providers.png",
+        "title": "Find a provider",
+        "color": "lightblue",
+        "description": "Specialities explained",
+        "link": "/doctors",
+        "alt": "provides icon"
+    },
+    {
+        "_id": 4,
+        "img_src": "./images/icon-guides.png",
+        "title": "Health guides",
+        "color": "lightlavender",
+        "description": "Practical next steps",
+        "link": "/guides",
+        "alt": "guides icon"
+    }
+]

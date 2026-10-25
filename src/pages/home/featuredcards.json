@@ -1,0 +1,10 @@
+[
+    {
+        "_id": 1,
+        "img_src": "featured_img",
+        "alt": "pill",
+        "title": "How to read a prescription label",
+        "description": "A simple breakdown of the information on hour medicationn label -- and why it matters",
+        "link": "/guides"
+    }
+]
