@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/pulsehealth/static/css/main.4176aa00.css",
-    "main.js": "/pulsehealth/static/js/main.65eb5d95.js",
+    "main.css": "/pulsehealth/static/css/main.b24c339b.css",
+    "main.js": "/pulsehealth/static/js/main.3c9815c7.js",
+    "static/media/background-prescriptions.png": "/pulsehealth/static/media/background-prescriptions.cf6a4535565427a42e3b.png",
+    "static/media/icon-appointments.png": "/pulsehealth/static/media/icon-appointments.4f054d7d6c0f0577fb99.png",
+    "static/media/icon-medications.png": "/pulsehealth/static/media/icon-medications.2856331d7e80fe1952e1.png",
+    "static/media/icon-providers.png": "/pulsehealth/static/media/icon-providers.6ee87f88f4f90b138303.png",
+    "static/media/icon-search.png": "/pulsehealth/static/media/icon-search.60ed2d873876d01c7c44.png",
+    "static/media/icon-guides.png": "/pulsehealth/static/media/icon-guides.0814114c4cb5825a90a8.png",
     "static/media/icon-menu.png": "/pulsehealth/static/media/icon-menu.de9ba006d9ed5c788487.png",
+    "static/media/icon-conditions.png": "/pulsehealth/static/media/icon-conditions.76fe2ce2369d73f8fba5.png",
     "index.html": "/pulsehealth/index.html",
-    "main.4176aa00.css.map": "/pulsehealth/static/css/main.4176aa00.css.map",
-    "main.65eb5d95.js.map": "/pulsehealth/static/js/main.65eb5d95.js.map"
+    "main.b24c339b.css.map": "/pulsehealth/static/css/main.b24c339b.css.map",
+    "main.3c9815c7.js.map": "/pulsehealth/static/js/main.3c9815c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4176aa00.css",
-    "static/js/main.65eb5d95.js"
+    "static/css/main.b24c339b.css",
+    "static/js/main.3c9815c7.js"
   ]
 }
