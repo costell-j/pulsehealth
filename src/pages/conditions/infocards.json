@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "miniHead": "",
+        "title": "Common signs",
+        "description": "Often no noticeable symptoms",
+        "color": "lightteal",
+        "link": "",
+        "linkText": ""
+    },
+    {
+        "_id": 2,
+        "miniHead": "",
+        "title": "Related topics",
+        "description": "Heart health and lifestyle habits",
+        "color": "lightgold",
+        "link": "",
+        "linkText": ""
+    },
+    {
+        "_id": 3,
+        "miniHead": "",
+        "title": "Talk to a provider",
+        "description": "If readings are consistently elevated",
+        "color": "lightblue",
+        "link": "",
+        "linkText": ""
+    }
+]

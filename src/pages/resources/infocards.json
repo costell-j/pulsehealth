@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "miniHead": "",
+        "title": "Know your numbers",
+        "description": "A guide to common  screenings and health measurements",
+        "color": "lightteal",
+        "link": "/guides",
+        "linkText": "Explore resources"
+    },
+    {
+        "_id": 2,
+        "miniHead": "",
+        "title": "Make room for prevention",
+        "description": "Vaccinations, checkups, and questions to ask",
+        "color": "lightgold",
+        "link": "/guides",
+        "linkText": "Explore resources"
+    },
+    {
+        "_id": 3,
+        "miniHead": "",
+        "title": "Plan for the unexpected",
+        "description": "First-aid basics and when to call for help",
+        "color": "lightblue",
+        "link": "/guides",
+        "linkText": "Explore resources"
+    }
+]

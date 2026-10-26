@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "img_src": "medications",
+        "title": "How to read a prescription label",
+        "description": "Explore the different sections of a prescription label.",
+        "miniHead": "Medication safety",
+        "read_time": "5 minute read",
+        "color": "lightteal"
+    },
+    {
+        "_id": 2,
+        "img_src": "appointments",
+        "title": "What to bring to a doctor's appointment",
+        "description": "Make a checklist of information and questions to bring to your visit.",
+        "miniHead": "Preparing for care",
+        "read_time": "4 minute read",
+        "color": "lightgold"
+    },
+    {
+        "_id": 3,
+        "img_src": "guides",
+        "title": "Preventative care basics for every age",
+        "description": "An introduction to preventive care and questions to discuss with your provider.",
+        "miniHead": "Healthy habits",
+        "read_time": "6 minute read",
+        "color": "lightblue"
+    },
+    {
+        "_id": 4,
+        "img_src": "conditions",
+        "title": "Understanding blood pressure: the numbers explained",
+        "description": "Explore common blood pressure terminology.",
+        "miniHead": "Preventative care",
+        "read_time": "5 minute read",
+        "color": "lightlavender"
+    },
+    {
+        "_id": 5,
+        "img_src": "medications",
+        "title": "Questions to ask your pharmacist",
+        "description": "Prepare questions for your next conversation with a pharmacist.",
+        "miniHead": "Medication safety",
+        "read_time": "4 minute read",
+        "color": "lightteal"
+    },
+    {
+        "_id": 6,
+        "img_src": "guides",
+        "title": "Keeping your health records organized",
+        "description": "Explore ways to organize appointment notes and health documents.",
+        "miniHead": "Preparing for care",
+        "read_time": "5 minute read",
+        "color": "lightgold"
+    },
+    {
+        "_id": 7,
+        "img_src": "providers",
+        "title": "Understanding healthcare specialties",
+        "description": "Get familiar with different types of healthcare providers.",
+        "miniHead": "Finding care",
+        "read_time": "6 minute read",
+        "color": "lightblue"
+    },
+    {
+        "_id": 8,
+        "img_src": "appointments",
+        "title": "Preparing for a telehealth appointment",
+        "description": "Create a checklist for your next virtual appointment.",
+        "miniHead": "Preparing for care",
+        "read_time": "4 minute read",
+        "color": "lightlavender"
+    }
+]

@@ -24,6 +24,12 @@
     background-color: var(--tealbtns);
 }
 
-.hidden {
-    display: none !important;
+#drop-down.hidden {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    #drop-down {
+        display: none;
+    }
 }

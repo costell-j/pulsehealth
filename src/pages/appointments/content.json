@@ -1,0 +1,23 @@
+{
+    "hero": {
+        "miniHead": "Appointments & care",
+        "title": "Feel prepared for every appointment.",
+        "description": "Use simple checklists and conversation starters to make the most of a healthcare visit -- before, during, and after you go.",
+        "placeholder": "Search appointment and care guides"
+    },
+    "second": {
+        "title": "Your appointment, step by step",
+        "description": "A little preparation can make it easier to remember what matters."
+    },
+    "third": {
+        "miniHead": "Appointment checklist",
+        "title": "Prepare for your visit",
+        "description": "Keep your questions and important information together."
+    },
+    "cta": {
+        "title": "A better visit starts before you walk in.",
+        "description": "Explore guides to help you feel organized, informed, and ready to talk.",
+        "button": "Prepare for care",
+        "link": "/guides"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "miniHead": "Medications",
+        "title": "Understand your medications",
+        "description": "Browse clear, general information about common medications, their uses, possible side effects, and questions to discuss with a healthcare professional.",
+        "placeholder": "Search a medication, symptom, or category"
+    },
+    "second": {
+        "title": "Pain & Fever",
+        "description": "Common medications, key terms, and helpful saftey basics."
+    },
+    "third": {
+        "miniHead": "",
+        "title": "Popular medications",
+        "description": "A starting point for learning -- not personal medical advice."
+    },
+    "cta": {
+        "title": "Find clear information, one medication at a time.",
+        "description": "Explore practical health education at your own pace.",
+        "button": "Explore medication",
+        "link": "/guides"
+    },
+    "banner": {
+        "title": "Medication safety starts with good questions.",
+        "description": "Learn what to ask about interactions, labels, side effects, and refills.",
+        "button": "Read saftey guides",
+        "link": "/guides"
+    }
+}

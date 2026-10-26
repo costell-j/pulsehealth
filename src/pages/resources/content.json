@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "miniHead": "Health Resources",
+        "title": "Your everyday health toolkit",
+        "description": "Explore practival information that supports healthier routines, safer choices, and more confident conversations about care.",
+        "placeholder": "Search health resources and wellness topics"
+    },
+    "second": {
+        "title": "Resources for everyday care",
+        "description": "Practical starting points for the topics that matter to you and your family."
+    },
+    "third": {
+        "miniHead": "",
+        "title": "Build a stronger health routine",
+        "description": "Small steps are easier to take when you know why they matter"
+    },
+    "cta": {
+        "title": "Keep helpful health informatino within reach.",
+        "description": "Explore resources designed for the questions that come up in real life.",
+        "button": "Explore resources",
+        "link": "/guides"
+    },
+    "banner": {
+        "title": "Planning for care is a form of care.",
+        "description": "Find practical tips for appointments, health questions, and everyday wellbeing.",
+        "button": "Browse guides",
+        "link": "/guides"
+    }
+}

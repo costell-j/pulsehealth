@@ -1,0 +1,5 @@
+.feature-banner { gap: 24px; }
+.feature-banner h2 { font-size: 26px; }
+.feature-banner p { color: var(--maintext); font-size: 14px; line-height: 1.8; }
+.feature-banner a.btn { font-size: 12px; font-weight: 800; flex-shrink: 0; }
+@media (min-width: 1000px) { .feature-banner .text { max-width: 70%; } }

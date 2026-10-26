@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "miniHead": "",
+        "title": "Primary care provider",
+        "description": "Your first step for routine care and ongoing health concerns",
+        "color": "lightteal",
+        "link": "/guides",
+        "linkText": "Learn about this role"
+    },
+    {
+        "_id": 2,
+        "miniHead": "",
+        "title": "Specialist",
+        "description": "Focused expertise for a particular body system or condition",
+        "color": "lightgold",
+        "link": "/guides",
+        "linkText": "Learn about this role"
+    },
+    {
+        "_id": 3,
+        "miniHead": "",
+        "title": "Pharmacist",
+        "description": "Medication guidance, safety questions, and refill support",
+        "color": "lightblue",
+        "link": "/guides",
+        "linkText": "Learn about this role"
+    }
+]

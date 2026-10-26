@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "miniHead": "Doctors & Providers",
+        "title": "Find the right kind of care.",
+        "description": "Learn what different healtthcare professionals do, the concernss they commonly help with, and what to expect before your first visit.",
+        "placeholder": "Search a speciality or health concern"
+    },
+    "second": {
+        "title": "Which provider can help?",
+        "description": "Start with the health concern you want to understand better."
+    },
+    "third": {
+        "miniHead": "",
+        "title": "Meet the care team",
+        "description": "A quick introduction to the professionals you may meet along the way."
+    },
+    "cta": {
+        "title": "The right questions can make care feel less overwhelming.",
+        "description": "Explore specialities before your next conversation.",
+        "button": "Explore providers",
+        "link": "/guides"
+    },
+    "banner": {
+        "title": "Go into your appointment prepared.",
+        "description": "Bring your questions, your medicatoin list, and a clear picture of what has changed.",
+        "button": "Prepare for a visit",
+        "link": "/guides"
+    }
+}

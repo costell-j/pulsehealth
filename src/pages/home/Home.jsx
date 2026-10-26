@@ -1,4 +1,3 @@
-import "./Home.css";
 import Hero from "../../components/hero/Hero";
 import CategoryCard from "../../components/category-card/CategoryCard";
 import categories from "./categories.json";
@@ -6,9 +5,12 @@ import medications from "../../components/images/icon-medications.png";
 import conditions from "../../components/images/icon-conditions.png";
 import providers from "../../components/images/icon-providers.png";
 import appointments from "../../components/images/icon-appointments.png";
+import guides from "../../components/images/icon-guides.png"
 import FeaturedGuide from "../../components/featured-guide/FeaturedGuide";
 import cards from "./featuredcards.json";
 import links from "./guidelinks.json";
+import TopicCard from "../../components/topic-card/TopicCard.jsx";
+import topics from "../../components/topic-card/TopicCard.json";
 import GuideLink from "../../components/guide-link/GuideLink";
 import featured_img from "../../components/images/background-prescriptions.png";
 import guideCards from "./guidecards.json";
@@ -19,6 +21,7 @@ const images = {
     conditions,
     providers,
     appointments,
+    guides,
     featured_img
 };
 
@@ -26,7 +29,38 @@ const images = {
 const Home = (e) => {
     return(
         <>
-            <Hero />
+            <Hero 
+            miniHead="Health information made simple"
+            title={<>Clear answers for every <br />health question.</>}
+            description="Explore relatable, easy-to-understand information about medications, health conditions, providers, and everyday care -- all in one calm place"
+            placeholder="Search medications, conditions, guides..."
+        >
+            <div className="content one hero-panel">
+                <div id="explore-health">
+                    <header id="exp-head">
+                        <h3>Explore health topics</h3>
+                        <div><h4>For everyday care</h4></div>
+                    </header>
+                    <div id="topics">
+                        {topics.map((topic) => (
+                            <TopicCard
+                                key={topic._id}
+                                img_src={images[topic.img_src]}
+                                title={topic.title}
+                                color={topic.color}
+                                description={topic.description}
+                                link={topic.link}
+                                alt={topic.alt}
+                            />
+                        ))}
+                    </div>
+                    <div id="start-basic">
+                        <h3>Start with the basics</h3>
+                        <p>understand a topic before your next appointment</p>
+                    </div>
+                </div>
+            </div>
+        </Hero>
             <section id="second-sec">
                 <header id="second-sec-head">
                     <div>

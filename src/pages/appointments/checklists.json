@@ -1,0 +1,52 @@
+[
+    {
+        "_id": 1,
+        "title": "Questions worth bringing with you",
+        "miniHead": "Appointment checklist",
+        "items": [
+            {
+                "_id": 1,
+                "text": "What could be causing these symptoms?"
+            },
+            {
+                "_id": 2,
+                "text": "Are these tests, treatment choices, or next steps to consider?"
+            },
+            {
+                "_id": 3,
+                "text": "What should I watch for before my next visit?"
+            },
+            {
+                "_id": 4,
+                "text": "Who should I contact if something changes?"
+            }
+        ],
+        "ordered": true,
+        "color": "lightteal"
+    },
+    {
+        "_id": 2,
+        "title": "Bring the basics",
+        "miniHead": "",
+        "items": [
+            {
+                "_id": 1,
+                "text": "Photo ID and insurance details"
+            },
+            {
+                "_id": 2,
+                "text": "A current medication list"
+            },
+            {
+                "_id": 3,
+                "text": "Your questions and symptoms"
+            },
+            {
+                "_id": 4,
+                "text": "A trusted person, if helpful"
+            }
+        ],
+        "ordered": false,
+        "color": "lightblue"
+    }
+]

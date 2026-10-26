@@ -137,6 +137,285 @@ main h3 {
   padding: 5px;
 }
 
+.content-page h2 { 
+  margin: 0; 
+  font-size: clamp(26px, 3vw, 34px); 
+  line-height: 1.3; 
+}
+
+/* Second Section */
+#second-sec {
+  padding: 64px 20px;
+}
+
+#second-sec-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+#second-sec-head h1 {
+  font-size: 28px;
+}
+
+#second-sec-head a {
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.guide-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#second-sec .guide {
+  padding: 24px;
+  border: 1px solid var(--borders);
+  border-radius: 14px;
+}
+
+#second-sec .guide:hover {
+  cursor: pointer;
+}
+
+#second-sec .guide h3 {
+  margin-bottom: 10px;
+  font-size: larger;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--darkblue);
+}
+
+#second-sec .guide p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--maintext);
+}
+
+#second-sec a {
+  display:contents;
+  text-decoration: none;
+  color: inherit;
+}
+
+.content-page #second-sec-head p,
+.content-page #third-sec-header > p:not(.mini-head) { 
+  color: var(--maintext); 
+  font-size: 14px; 
+  line-height: 1.8; 
+}
+
+/* Third Section */
+#third-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 64px 20px;
+  background: var(--whiteish);
+}
+
+#third-sec-header { 
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.guide-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#third-sec .guide {
+  padding: 24px;
+  border: 1px solid var(--borders);
+  border-radius: 14px;
+}
+
+ul {
+  line-height:50px;
+}
+
+#third-sec .guide h3 {
+  margin-bottom: 10px;
+  font-size: larger;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--darkblue);
+}
+
+#third-sec .guide p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--maintext);
+}
+
+#third-sec-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding: 24px;
+  border: 1px solid var(--borders);
+  border-radius: 14px;
+  background: var(--white);
+}
+
+#third-sec-box .btn {
+  width: 100%;
+  max-height: 50px;
+}
+
+.featured-card {
+  overflow: hidden;
+  border: 1px solid var(--borders);
+  border-radius: 16px;
+  background: var(--white);
+}
+
+.featured-card img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: var(--light-teal);
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.featured-card .guide {
+  padding-bottom: 28px;
+}
+
+.featured-card .guide div {
+  margin: 24px 24px 0;
+}
+
+.featured-card h2 {
+  margin: 12px 24px;
+  font-size: 23px;
+  line-height: 1.3;
+}
+
+.featured-card p {
+  margin: 12px 24px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--maintext);
+}
+
+.featured-card a {
+  display: inline-block;
+  margin: 8px 24px 0;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.content-page #third-sec { 
+  align-items: stretch; 
+  gap: 28px; 
+}
+
+.content-page #second-sec .category-grid,
+.content-page #third-sec .info-grid { 
+  display: grid; 
+  width: 100%; 
+  grid-template-columns: minmax(0, 1fr); 
+  gap: 20px; 
+}
+
+
+/* Featured Text */
+.featured-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.featured-text h1 {
+  font-size: 34px;
+}
+
+.featured-text h3 {
+  line-height: 1.8;
+}
+
+.featured-description {
+  margin: 22px 0 26px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--maintext);
+}
+
+.featured-text hr {
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-top: 1px solid var(--borders);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 14px 0;
+}
+
+.link p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--tealbtns);
+}
+
+/* Fourth Section */
+#fourth-section {
+  padding: 64px 20px 0;
+}
+
+#fourth-section .text {
+  margin-bottom: 30px;
+}
+
+#fourth-section .text h1 {
+  font-size: 28px;
+}
+
+#fourth-section .text h4 {
+  max-width: 530px;
+  margin: 16px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: var(--maintext);
+}
+
+.cta-container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 64px;
+  padding: 45px 24px;
+  border-radius: 20px;
+  background: var(--ctamint);
+  text-align: center;
+}
+
+
+.content-page .cta-container { 
+  margin-top: 0; 
+}
+
 @media(min-width:1000px) {
     /* Columns */
     .column {
@@ -155,4 +434,128 @@ main h3 {
   .hide-big {
       display: none;
   }
+
+  /* Second Section */
+  #second-sec {
+    padding: 95px 7%;
+  }
+
+  #second-sec-head {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+  }
+
+  #second-sec-head h1 {
+      font-size: 34px;
+  }
+
+  #second-sec .guide-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  #second-sec .guide {
+      flex: 1;
+      min-height: 245px;
+  }
+
+  .content-page #second-sec .category-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+}
+
+
+  /* Third Section */
+  #third-sec {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+      padding: 95px 7%;
+  }
+
+  #third-sec-header {
+      width: 100%;
+      flex-direction: row;
+      align-items: flex-end;
+  }
+
+  #third-sec .guide-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  #third-sec-box {
+      flex-direction: row;
+  }
+
+  #third-sec-box .btn {
+      max-width: 175px;
+  }
+
+  #third-sec .guide {
+      flex: 1;
+      min-height: 100px;
+  }
+
+  #third-sec #guide-list .guide {
+      flex: 1 1 30%;
+  }
+
+  .content-page #third-sec .info-grid { 
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+ }
+ 
+ .content-page #third-sec .checklist-grid { 
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+ }
+
+  .featured-card {
+      flex: 1;
+      max-width: 75%;
+  }
+
+  .featured-text {
+      flex: 1;
+      max-width: 500px;
+  }
+
+  .featured-card img {
+      max-width: 85%;
+      height: 250px;
+      max-height: auto;
+      border-radius: 15px;
+      margin:auto;
+  }
+
+  .featured-text h1 {
+      font-size: 42px;
+  }
+
+
+  /* Fourth Section */
+  #fourth-section {
+      padding: 95px 7% 0;
+  }
+
+  #fourth-section .text h1 {
+      font-size: 34px;
+  }
+
+  #fourth-section .guide-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  #fourth-section .guide {
+      flex: 1;
+  }
+
+  .cta-container {
+      margin-top: 85px;
+      padding: 70px 40px;
+}
 }

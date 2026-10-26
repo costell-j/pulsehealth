@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "img_src": "step1",
+        "title": "Before you visit",
+        "description": "Gather medications, notes, questions, and a symptom timeline.",
+        "link": "/guides",
+        "color": "lightteal"
+    },
+    {
+        "_id": 2,
+        "img_src": "step2",
+        "title": "During your visit",
+        "description": "Share changes, ask questions, and take notes on next steps.",
+        "link": "/guides",
+        "color": "lightgold"
+    },
+    {
+        "_id": 3,
+        "img_src": "step3",
+        "title": "After your visit",
+        "description": "Review instructions, schedule follow-ups, and track concerns.",
+        "link": "/guides",
+        "color": "lightblue"
+    }
+]

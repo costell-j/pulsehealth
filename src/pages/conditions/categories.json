@@ -1,0 +1,34 @@
+[
+    {
+        "_id": 1,
+        "img_src": "heart_circulation",
+        "title": "Heart & circulation",
+        "description": "Symptoms, care basics, and related health guides.",
+        "link": "/guides",
+        "color": "lightteal"
+    },
+    {
+        "_id": 2,
+        "img_src": "digestive_health",
+        "title": "Digestive health",
+        "description": "Symptoms, care basics, and related health guides.",
+        "link": "/guides",
+        "color": "lightgold"
+    },
+    {
+        "_id": 3,
+        "img_src": "respiratory_health",
+        "title": "Respiratory health",
+        "description": "Symptoms, care basics, and related health guides.",
+        "link": "/guides",
+        "color": "lightblue"
+    },
+    {
+        "_id": 4,
+        "img_src": "mental_health",
+        "title": "Mental wellbeing",
+        "description": "Symptoms, care basics, and related health guides.",
+        "link": "/guides",
+        "color": "lightlavender"
+    }
+]

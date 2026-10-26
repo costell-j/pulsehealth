@@ -1,0 +1,25 @@
+{
+    "hero": {
+        "miniHead": "Health guides",
+        "title": "Helpful guides for real life.",
+        "description": "Explore clear, practical articles that make health topics easier to understand -- from preparing for a visit to reading a prescription label.",
+        "placeholder": "Search health guides and aricles"
+    },
+    "third": {
+        "miniHead": "",
+        "title": "Explore guides by topic",
+        "description": "Find practical answers for the everyday questions that come up during appointments."
+    },
+    "cta": {
+        "title": "Clear information can be the first helpful step.",
+        "description": "Use these guides to build confidence before your next health decision.",
+        "button": "Browse guides",
+        "link": "/guides"
+    },
+    "featured": {
+        "miniHead": "Featured guide",
+        "title": "Understanding blood pressure: The numbers explained",
+        "description": "A calm introduction to a common health measurement and the questions it can raise",
+        "color": "lightteal"
+    }
+}

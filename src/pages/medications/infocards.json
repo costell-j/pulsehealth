@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "miniHead": "Pain reliever",
+        "title": "Ibuprofen",
+        "description": "Common uses, dosage forms, warning",
+        "color": "lightteal",
+        "link": "/guides",
+        "linkText": "View medication"
+    },
+    {
+        "_id": 2,
+        "miniHead": "Diabetes care",
+        "title": "Metformin",
+        "description": "How it helps and common side effects",
+        "color": "lightgold",
+        "link": "/guides",
+        "linkText": "View medication"
+    },
+    {
+        "_id": 3,
+        "miniHead": "Blood pressure",
+        "title": "Lisinopril",
+        "description": "What to know before taking it",
+        "color": "lightblue",
+        "link": "/guides",
+        "linkText": "View medication"
+    }
+]

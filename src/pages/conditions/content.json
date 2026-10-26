@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "miniHead": "Health Conditions",
+        "title": "Explore health conditions with more clarity.",
+        "description": "Learn about common conditions, typical symptoms, general treatment approaches, and when it may be time to seek professional care.",
+        "placeholder": "Search a condition, symptom, or body system"
+    },
+    "second": {
+        "title": "Browse by health topic",
+        "description": "Explore information organized around the systems and concerns people ask about most."
+    },
+    "third": {
+        "miniHead": "Featured condition",
+        "title": "Understanding high blood pressure",
+        "description": "Blood pressure is the force of blood against the artery walls. Many people have no symptoms, which is why regular screening matters."
+    },
+    "cta": {
+        "title": "Health information that helps you ask better questions.",
+        "description": "Use Pulse as a starting point, then discuss your needs with a qualified professional.",
+        "button": "Explore conditions",
+        "link": "/guides"
+    },
+    "banner": {
+        "title": "Know when to seek care.",
+        "description": "Learn about urgent symptoms, routine checkups, and preparing for a health concern.",
+        "button": "Explore care guidance",
+        "link": "/guides"
+    }
+}
