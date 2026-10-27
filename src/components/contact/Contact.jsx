@@ -25,7 +25,22 @@ const Contact = ( { dialogRef }) => {
     };
 
   return(
-    <dialog id="contact-modal" ref={dialogRef}>
+    <dialog 
+        id="contact-modal" 
+        ref={dialogRef}
+        onClick={(event) => {
+            const bounds = event.currentTarget.getBoundingClientRect();
+    
+            const clickedOutside =
+                event.clientX < bounds.left ||
+                event.clientX > bounds.right ||
+                event.clientY < bounds.top ||
+                event.clientY > bounds.bottom;
+    
+            if (clickedOutside) {
+                event.currentTarget.close();
+            }
+        }}>
             <button id="contact-close" type="button" className="btn" onClick={() => dialogRef.current.close()}>Close</button>
             <h2>Contact Pulse</h2>
             <p className="contact-description">

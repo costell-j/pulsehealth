@@ -1,7 +1,7 @@
 import "./FootNav.css"
 import {NavLink} from "react-router-dom";
 
-const FootNav = ( { onContactOpen }) => {
+const FootNav = ( { onContactOpen, onAboutOpen,  onPrivacyOpen }) => {
     return(
         <nav id="foot-nav">
                 <div id="explore">
@@ -23,13 +23,21 @@ const FootNav = ( { onContactOpen }) => {
                 <div id="about">
                     <h5>About</h5>
                     <ul>
-                        <NavLink to="#"><li>About Pulse</li></NavLink>
                         <li>
-                            <button type="button" id="contact-btn" onClick={onContactOpen}>
+                            <button type="button" className="modal-btn" onClick={onAboutOpen}>
+                                About Pulse
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" className="modal-btn" onClick={onContactOpen}>
                                 Contact
                             </button>
                         </li>
-                        <NavLink to="#"><li>Privacy</li></NavLink>
+                        <li>
+                            <button type="button" className="modal-btn" onClick={onPrivacyOpen}>
+                                Privacy
+                            </button>
+                        </li>
                     </ul>
                 </div>
         </nav>

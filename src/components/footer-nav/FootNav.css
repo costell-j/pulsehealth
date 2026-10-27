@@ -35,14 +35,14 @@
     color: var(--white);
 }
 
-#contact-btn {
+.modal-btn {
     color: inherit;
     margin: 0;
     padding: 0;
     font-size: inherit;
 }
 
-#contact-btn:hover {
+.modal-btn:hover {
     color: var(--white);
     cursor: pointer;
 }

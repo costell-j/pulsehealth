@@ -1,0 +1,47 @@
+#about-modal {
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow: auto;
+    padding: 24px;
+    border: 1px solid var(--borders);
+    border-radius: 18px;
+    color: var(--darkblue);
+    background: var(--white);
+}
+
+#header h1 {
+    font-size: 30px;
+}
+
+
+#about-modal::backdrop {
+    background: #12323D99;
+}
+
+#about-modal h3 {
+    font-size: 15px;
+}
+
+#about-modal header {
+    margin-top:0;
+    padding-top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+#about-modal button {
+    max-height: 50px;
+    min-width: 100px;
+}
+
+#about-modal p {
+    font-size: 14px;
+}
+
+#disclaimer {
+    font-size: 11px !important;
+    font-style: italic;
+}
