@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pulsehealth/static/css/main.4b7217be.css",
-    "main.js": "/pulsehealth/static/js/main.2432b44b.js",
+    "main.css": "/pulsehealth/static/css/main.4d5a06b3.css",
+    "main.js": "/pulsehealth/static/js/main.47cfa546.js",
     "static/media/background-prescriptions.png": "/pulsehealth/static/media/background-prescriptions.cf6a4535565427a42e3b.png",
     "static/media/icon-allergies.png": "/pulsehealth/static/media/icon-allergies.e7457de54ecce90fe206.png",
     "static/media/icon-mental-health.png": "/pulsehealth/static/media/icon-mental-health.dd455d8ae9e748c649a1.png",
@@ -24,11 +24,11 @@
     "static/media/icon-conditions.png": "/pulsehealth/static/media/icon-conditions.76fe2ce2369d73f8fba5.png",
     "static/media/icon-3.png": "/pulsehealth/static/media/icon-3.d916e61640d5aed451ac.png",
     "index.html": "/pulsehealth/index.html",
-    "main.4b7217be.css.map": "/pulsehealth/static/css/main.4b7217be.css.map",
-    "main.2432b44b.js.map": "/pulsehealth/static/js/main.2432b44b.js.map"
+    "main.4d5a06b3.css.map": "/pulsehealth/static/css/main.4d5a06b3.css.map",
+    "main.47cfa546.js.map": "/pulsehealth/static/js/main.47cfa546.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b7217be.css",
-    "static/js/main.2432b44b.js"
+    "static/css/main.4d5a06b3.css",
+    "static/js/main.47cfa546.js"
   ]
 }
