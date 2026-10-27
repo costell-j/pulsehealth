@@ -3,8 +3,7 @@ import {NavLink} from "react-router-dom";
 
 const Dropdown = ({isOpen}) => {
     return(
-        // eslint-disable-next-line no-undef
-        <nav id="drop-down" className={isOpen ? "" : "hidden"}>
+       <nav id="drop-down" className={isOpen ? "" : "hidden"}>
             <NavLink to="/medications">
                 <div className="drop-div">
                     Medications

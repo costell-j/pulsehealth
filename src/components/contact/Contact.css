@@ -1,0 +1,79 @@
+/* Contact */
+#contact-modal {
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow: auto;
+    padding: 24px;
+    border: 1px solid var(--borders);
+    border-radius: 18px;
+    color: var(--darkblue);
+    background: var(--white);
+}
+
+#contact-modal::backdrop {
+    background: #12323D99;
+}
+
+#contact-modal h2 {
+    margin-top: 0;
+}
+
+#contact-modal p {
+    font-size: 13px;
+}
+
+#contact-close {
+    float: right;
+    border: none;
+    background-color: var(--tealbtns);
+    color:var(--white);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#contact-submit {
+    transition-duration: 0.5s;
+}
+
+#contact-close:hover, #contact-submit.btn:hover{
+    background-color: var(--white);
+    color:var(--tealbtns);
+    transition-duration: 0.5s;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--borders);
+    border-radius: 8px;
+    background: var(--whiteish);
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    min-height: 120px;
+}
+
+#contact-form button {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: var(--tealhover);
+}
+
+#result {
+    font-size: 13px;
+    color: var(--maintext);
+}

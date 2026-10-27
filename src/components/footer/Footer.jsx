@@ -1,9 +1,13 @@
 import "./Footer.css";
 import logo from "../header/images/pulse-logo.png";
 import FootNav from "../footer-nav/FootNav";
+import Contact from "../contact/Contact";
+import { useRef } from "react";
 import {NavLink} from "react-router-dom";
 
 const Footer = (e) =>{
+    const contactRef = useRef(null);
+
     return(
         <footer>
             <header id="foot-header">
@@ -15,7 +19,8 @@ const Footer = (e) =>{
                 </NavLink>
                 <p>Clear health information for everyday decisions</p>
             </header>
-            <FootNav />
+            <FootNav onContactOpen={() => contactRef.current.showModal()} />
+            <Contact dialogRef={contactRef} />
             <hr />
             <p>Pulse provides general educational information only. It is not a subsitute for professional medical advice, diagnosis, or treatment</p>
             <p>&copy; 2026 Pulse Health Information</p>

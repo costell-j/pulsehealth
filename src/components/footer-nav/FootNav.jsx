@@ -1,7 +1,7 @@
 import "./FootNav.css"
 import {NavLink} from "react-router-dom";
 
-const FootNav = (e) => {
+const FootNav = ( { onContactOpen }) => {
     return(
         <nav id="foot-nav">
                 <div id="explore">
@@ -24,7 +24,11 @@ const FootNav = (e) => {
                     <h5>About</h5>
                     <ul>
                         <NavLink to="#"><li>About Pulse</li></NavLink>
-                        <NavLink to="#"><li>Contact</li></NavLink>
+                        <li>
+                            <button type="button" id="contact-btn" onClick={onContactOpen}>
+                                Contact
+                            </button>
+                        </li>
                         <NavLink to="#"><li>Privacy</li></NavLink>
                     </ul>
                 </div>

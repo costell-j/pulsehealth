@@ -6,8 +6,7 @@ import categories from "./categories.json";
 import InfoCard from "../../components/info-card/InfoCard";
 import cards from "./infocards.json";
 import FeatureBanner from "../../components/feature-banner/FeatureBanner";
-import FaqItem from "../../components/faq-item/FaqItem";
-import faqs from "./faqs.json";
+import Faq from "../../components/faq/Faq";
 import preventative_care from "../../components/images/icon-preventative-care.png";
 import vaccines from "../../components/images/icon-vaccines.png";
 import first_aid from "../../components/images/icon-first-aid.png";
@@ -28,7 +27,11 @@ const Resources = () => {
                 title={content.hero.title}
                 description={content.hero.description}
                 placeholder={content.hero.placeholder}
-            />
+            >
+                <div class="content one hero-panel">
+                    <Faq />
+                </div>
+            </Hero>
             <section id="second-sec">
                 <header id="second-sec-head">
                     <div>
@@ -78,14 +81,6 @@ const Resources = () => {
                 />
             </section>
             <section id="fourth-section">
-                {faqs.length > 0 && (
-                    <div className="faq-list">
-                        <FaqItem
-                            question={faqs[0].question}
-                            answer={faqs[0].answer}
-                        /> {/* will make funcitonal later ;-; */}
-                    </div>
-                )}
                 <div className="content cta-container">
                     <CallToAction
                         title={content.cta.title}
