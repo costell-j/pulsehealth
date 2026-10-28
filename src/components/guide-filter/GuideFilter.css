@@ -1,0 +1,33 @@
+.guide-filter {
+    width: 100%;
+    margin: 35px auto 0;
+    padding: 28px;
+    border: 1px solid var(--borders);
+    border-radius: 18px;
+    background: var(--white);
+    box-shadow: 0 15px 35px var(--darkerblue);
+}
+
+.guide-filter h2 {
+    margin: 0 0 12px;
+    font-size: 24px;
+}
+
+.guide-filter p {
+    margin-bottom: 24px;
+    color: var(--maintext);
+    line-height: 1.8;
+}
+
+.guide-filter label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+    .guide-filter {
+        margin: 0 0 0 auto;
+        max-width: 480px;
+    }
+}

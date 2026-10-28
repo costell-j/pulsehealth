@@ -2,6 +2,8 @@ import Hero from "../../components/hero/Hero";
 import CallToAction from "../../components/call-to-action/CallToAction";
 import content from "./content.json";
 import InfoCard from "../../components/info-card/InfoCard";
+import { useState } from "react";
+import GuideFilter from "../../components/guide-filter/GuideFilter";
 import cards from "./guidecards.json";
 import medications from "../../components/images/icon-medications.png";
 import appointments from "../../components/images/icon-appointments.png";
@@ -17,7 +19,19 @@ const images = {
     providers,
 };
 
+const categoryOptions = [...new Set(cards.map((card) => card.miniHead))]
+    .map((category) => ({
+        value: category,
+        label: category
+    }));
+
 const Guides = () => {
+    const [selectedCategory, setSelectedCategory] = useState(null);
+
+    const filteredCards = selectedCategory
+        ? cards.filter((card) => card.miniHead === selectedCategory.value)
+        : cards;
+    
     return (
         <div className="content-page">
             <Hero
@@ -41,7 +55,12 @@ const Guides = () => {
                     <p>{content.third.description}</p>
                 </header>
                 <div className="content guide-container info-grid">
-                    {cards.map((card) => (
+                    <GuideFilter
+                        options={categoryOptions}
+                        selectedCategory={selectedCategory}
+                        onCategoryChange={setSelectedCategory}
+                    />
+                    {filteredCards.map((card) => (
                         <InfoCard
                             key={card._id}
                             miniHead={card.miniHead}

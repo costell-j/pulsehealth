@@ -1,26 +1,37 @@
 import "./Contact.css";
-import { useState } from 'react';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = ( { dialogRef }) => {
-    const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        setResult("Sending....");
-        const formData = new FormData(event.target);
+        const toastId = toast.loading("Sending your message...");
+        const form = event.currentTarget;
+        const formData = new FormData(form);
         formData.append("access_key", "e26ee77e-5df6-4b21-9af7-37c3561f6c19");
 
-        const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData
-        });
-
-        const data = await response.json();
-        if (data.success) {
-        setResult("Form Submitted Successfully");
-        event.target.reset();
-        } else {
-        setResult("Error");
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            });
+        
+            const data = await response.json();
+        
+            if (response.ok && data.success) {
+                toast.success("Message sent! Thanks for contacting Pulse.", {
+                    id: toastId
+                });
+                form.reset();
+            } else {
+                toast.error("Couldn't send your message. Please try again.", {
+                    id: toastId
+                });
+            }
+        } catch (error) {
+            toast.error("Connection problem. Please try again.", {
+                id: toastId
+            });
         }
     };
 
@@ -65,8 +76,8 @@ const Contact = ( { dialogRef }) => {
                     <textarea id="message" name="message" required></textarea>
                 </p>
                 <p><button type="submit" className="btn" id="contact-submit">Submit</button></p>
-                <p id="result" role="status">{result}</p>
             </form>
+            <Toaster position="bottom-center" />
         </dialog>
   )
     

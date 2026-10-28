@@ -28,7 +28,7 @@ const Doctors = () => {
                 description={content.hero.description}
                 placeholder={content.hero.placeholder}
             >
-                <div class="content one hero-panel">
+                <div className="content one hero-panel">
                     <ProviderMap />
                 </div>
             </Hero>

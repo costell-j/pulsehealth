@@ -21,13 +21,13 @@ const Faq = () => {
     return(
         <>
         <div id="faq" className="content">
-            <span id="back-arrow" className="arrow" onClick={prevFAQ}>&larr;</span>
+            <button type="button" id="back-arrow" className="arrow" onClick={prevFAQ}>&larr;</button>
             <div id="faq-question-container">
                 <h1 id="faq-title">{`FAQS (${faqs[current]._id} of ${faqs.length})`}</h1>
                 <h2 id="faq-question">{faqs[current].question}</h2>
                 <p id="faq-answer">{faqs[current].answer}</p>
             </div>
-            <span id="front-arrow" className="arrow" onClick = {nextFAQ}>&rarr;</span>
+            <button type="button" id="front-arrow" className="arrow" onClick = {nextFAQ}>&rarr;</button>
         </div>
         </>
     )

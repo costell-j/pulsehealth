@@ -28,7 +28,7 @@ const Resources = () => {
                 description={content.hero.description}
                 placeholder={content.hero.placeholder}
             >
-                <div class="content one hero-panel">
+                <div className="content one hero-panel">
                     <Faq />
                 </div>
             </Hero>
