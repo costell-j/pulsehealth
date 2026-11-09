@@ -2,35 +2,56 @@ import Hero from "../../components/hero/Hero";
 import CallToAction from "../../components/call-to-action/CallToAction";
 import content from "./content.json";
 import InfoCard from "../../components/info-card/InfoCard";
-import { useState } from "react";
+import GuideCard from "../../components/guide-card/GuideCard";
+import { useEffect, useState } from "react";
 import GuideFilter from "../../components/guide-filter/GuideFilter";
-import cards from "./guidecards.json";
 import medications from "../../components/images/icon-medications.png";
 import appointments from "../../components/images/icon-appointments.png";
-import guides from "../../components/images/icon-guides.png";
+import guidesImg from "../../components/images/icon-guides.png";
 import conditions from "../../components/images/icon-conditions.png";
 import providers from "../../components/images/icon-providers.png";
 
 const images = {
     medications,
     appointments,
-    guides,
+    guidesImg,
     conditions,
     providers,
 };
 
-const categoryOptions = [...new Set(cards.map((card) => card.miniHead))]
-    .map((category) => ({
+const Guides = () => {
+    const [selectedCategory, setSelectedCategory] = useState(null);
+
+    
+
+    const [guides, setGuides] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    
+
+    const categoryOptions = [...new Set(guides.map(guide => guide.category))]
+    .map(category => ({
         value: category,
         label: category
     }));
 
-const Guides = () => {
-    const [selectedCategory, setSelectedCategory] = useState(null);
+    const filteredGuides = selectedCategory
+    ? guides.filter(guide => guide.category === selectedCategory.value)
+    : guides;
 
-    const filteredCards = selectedCategory
-        ? cards.filter((card) => card.miniHead === selectedCategory.value)
-        : cards;
+    useEffect(() => {
+    fetch("https://pulse-backend-0kep.onrender.com/api/guides")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Failed to load guides");
+            }
+
+            return response.json();
+        })
+        .then(data => setGuides(data))
+        .catch(err => setError(err.message))
+        .finally(() => setLoading(false));
+    }, []);
     
     return (
         <div className="content-page">
@@ -60,17 +81,17 @@ const Guides = () => {
                         selectedCategory={selectedCategory}
                         onCategoryChange={setSelectedCategory}
                     />
-                    {filteredCards.map((card) => (
-                        <InfoCard
-                            key={card._id}
-                            miniHead={card.miniHead}
-                            title={card.title}
-                            description={card.description}
-                            img_src={images[card.img_src]}
-                            color={card.color}
-                            link={card.link}
-                            linkText={card.linkText}
-                            read_time={card.read_time}
+                    {loading && <p>Loading guides...</p>}
+                    {error && <p role="alert">Error: {error}</p>}
+                    {!loading && !error && filteredGuides.map(guide => (
+                        <GuideCard
+                            image={`https://pulse-backend-0kep.onrender.com${guide.img_name}`}
+                            key={guide._id}
+                            title={guide.title}
+                            description={guide.description}
+                            category={guide.category}
+                            read_time={guide.read_time}
+                            color={guide.color}
                         />
                     ))}
                 </div>

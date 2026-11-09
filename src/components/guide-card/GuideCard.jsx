@@ -1,13 +1,17 @@
-import { NavLink } from "react-router-dom"
 import "./GuideCard.css"
 
-const GuideCard = ({ title, description, link }) => {
+const GuideCard = ({ title, description, category, image, read_time, color}) => {
     return(
-        <div className="guide guide-card">
+        <article className={`guide-card ${color || ""}`}>
+            {image && (<img src={image} alt="" className="logo-img" />)}
+
+            {category && <h3 className="mini-head">{category}</h3>}
+
             <h4>{title}</h4>
             <p>{description}</p>
-            <NavLink to={link}>Read guide</NavLink>
-        </div>            
+
+            {read_time && <p>{read_time}</p>}
+        </article>            
     )
 }
 
