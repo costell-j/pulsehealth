@@ -1,0 +1,126 @@
+/* Guide Modal */
+.guide-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: #12323dbf;
+}
+
+.guide-modal {
+  position: relative;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border: 1px solid var(--borders);
+  border-radius: 16px;
+  background: var(--white);
+}
+
+.guide-modal-header {
+  padding: 50px 24px 30px;
+  background: var(--heromint);
+}
+
+.guide-modal-header .mini-head {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.guide-modal-header h2 {
+  margin: 0 0 15px;
+  font-size: 26px;
+  line-height: 1.3;
+  color: var(--darkblue);
+}
+
+.guide-modal-header p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--mutedtext);
+}
+
+.guide-modal-content {
+  padding: 30px 24px;
+}
+
+.guide-modal-image {
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 25px;
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--light-teal);
+  object-fit: contain;
+}
+
+.guide-modal-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--maintext);
+  white-space: pre-line;
+}
+
+.guide-modal-article {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid var(--borders);
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--maintext);
+}
+
+.guide-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  color: var(--darkblue);
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.guide-modal-close:hover {
+  color: var(--tealbtns);
+}
+
+@media (min-width: 1000px) {
+  .guide-modal-overlay {
+    padding: 30px;
+  }
+
+  .guide-modal {
+    max-width: 850px;
+  }
+
+  .guide-modal-header {
+    padding: 60px 55px 40px;
+  }
+
+  .guide-modal-header h2 {
+    font-size: 34px;
+  }
+
+  .guide-modal-content {
+    padding: 45px 55px 55px;
+  }
+
+  .guide-modal-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .guide-modal-text,
+  .guide-modal-article {
+    font-size: 15px;
+  }
+}
